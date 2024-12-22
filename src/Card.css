@@ -1,0 +1,81 @@
+.all-continer-card .all-continer-text{
+    margin-top: 150px;
+}
+.all-continer-card .all-continer-text h1{
+  color: black;
+}
+.all-continer-card .all-continer-text p{
+    margin-top: 0px;
+    margin-bottom: 70px;
+    color: black;
+    
+}
+.all-continer{
+    display: flex;
+    justify-content: center;
+}
+.card-container {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .card-top {
+    padding: 20px;
+  }
+  
+  .card-image {
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+    text-align: start;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #555;
+    text-align: start;
+  }
+  
+  .card-bottom {
+    /* background: #f9f9f9; */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-role {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #0077b5; /* LinkedIn Blue */
+  }
+  
